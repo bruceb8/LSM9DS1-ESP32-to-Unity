@@ -1,0 +1,21 @@
+{
+  "name": "notable",
+  "version": "1.0.0",
+  "private": false,
+  "description": "first try at a server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Bruce Baker",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^2.2.16",
+    "npm": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
